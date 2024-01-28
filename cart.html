@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Product Cart</title>
+</head>
+<body>
+ <div id="cart"></div>
+ <script>
+    function Product(id, name, price) {
+      this.id = id;
+      this.name = name;
+      this.price = price;
+    }
+                
+    function addToCart(product) {
+      let cart = document.getElementById('cart');
+      let p = document.createElement('p');
+      p.innerHTML = `${product.name} - $${product.price}`;
+      cart.appendChild(p);
+    }
+
+    let p1 = new Product(1, 'Product 1', 100);
+    let p2 = new Product(2, 'Product 2', 200);
+
+    addToCart(p1);
+    addToCart(p2);
+ </script>
+</body>
+</html>

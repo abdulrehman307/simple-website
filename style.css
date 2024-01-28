@@ -1,0 +1,336 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   
+}
+.main{
+    /*background:linear-gradient(to right,green, rgb(38, 66, 77),blue,black,rgb(185, 67, 67)) ;
+  */
+     background:#5bc0de ;
+
+   box-shadow: 1px 1px silver;
+    color:#fff;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    height:60px;
+    top:0;
+    left:0;
+    width:100%;
+   display: flex;
+position: sticky;
+z-index: 999;
+
+}
+.nav {
+    margin-left: 100px;
+    padding: 5px;
+    margin-top: 10px;
+    justify-content: space-evenly;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+ .nav a:hover{
+  transition: all 0.5s ease-in-out;
+  color: rgb(0, 213, 255);
+
+}
+.cart i:hover{
+  transition: all 0.5s ease-in-out;
+  color: rgb(0, 213, 255);
+}
+ a{
+    text-decoration: none;    
+}
+.nav a{
+ 
+  color: rgba(255, 255, 255, 0.979);
+  margin: 10px;
+}
+.cart{
+  margin-top: 5px;
+  padding: 5px;
+  margin-left: 240px;
+cursor: pointer;
+text-shadow: 2px 2px rgb(4, 56, 78);;
+  
+}
+.cart i{
+    margin: 10px;
+    
+    
+}
+.cart a{
+  color: white;
+  text-align: center; 
+  justify-content: center;
+}
+.shop{
+  margin-top: 200px;
+height: 50000000000px;
+width: 50px;
+background-color: black;
+}
+section{
+  padding: 80px 13%;
+}
+
+/* for welcome ..................*/
+.home .home-text p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  margin-bottom: 25px;
+   font-weight: 900;
+   color: darkblue;
+   text-shadow: 1.5px 1px white;
+  text-transform: capitalize;
+}
+
+
+
+
+.home{
+
+  height: 90vh;
+  width: 100%;
+  background-color: #f5f5f5;
+  /*background:linear-gradient( skyblue, pink, rgb(161, 215, 161)) ;*/
+  align-items: center;
+justify-content: space-between;
+display: flex;
+}
+.home-text h1{
+  font-size: 50px;
+  margin: 15px 0 15px;
+color: green;
+text-shadow: 2px 2px white;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.home-text h5{
+  font-size: 20px;
+  letter-spacing: 1px;
+color: blue;
+text-shadow: 2px 2px white;
+font-weight: bolder;
+}
+ .home-input input:first-child{
+  margin-top: 34px;
+  border: none;
+  display: inline-block;
+  width: 80%;
+  outline: none;
+padding: 16px 140px 16px 15px;
+border-radius: 30px;
+border: 3px solid yellow;
+margin-right: 10px;
+}
+ .home-input input:last-child{
+  position: absolute;
+border: none;
+outline: none;
+border-radius:22px ;
+cursor: pointer;
+padding: 20px;
+background-color:green;
+margin-top: 32px;
+border: 2px solid yellow;
+color: #fff;
+}
+
+.home-input input:last-child:hover{
+  background-color: yellow;
+  color: black;
+  transition: all 0.4s ease-in-out;
+  
+}
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(226, 226, 179,0.2);
+}
+.box{
+  display: flex;
+  border: 0.5px solid silver;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 5px 5px silver;
+  cursor: pointer;
+  background-color: #fff;
+}
+.container .box:hover{
+  
+  transform: translatex(10px);
+}
+.container .box i{
+font-size: 40px;
+
+}
+.categories .box{
+ display: inline-block;
+ height: 250px;
+ width: 250px;
+
+
+
+}
+.categories .box .box-text{
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-left:10px ;
+}
+ .box .box-text h1{
+  justify-content: center;
+  align-items: center;
+}
+.categories .box img{
+  margin-left: 30px;
+}
+.categories .box .box-text p{
+text-align: center;
+justify-content: center;
+}
+
+/*   for courses ...................................... */
+ .courses{
+display: inline-flex;
+justify-content:space-evenly ;
+
+
+
+
+}
+.course-box{
+  width: 300px;
+  height: 360px;
+ background-color:rgb(242, 238, 238);
+ justify-content: center;
+ text-align: center;
+ margin:26px 8px;
+}
+.course-box .course-img img{
+  
+  height: 250px;
+  width: 300px;
+ 
+
+}
+.course-box .course-text{
+  padding: 5px;
+ margin-top: 2px;
+}
+.course-box .course-text h3{
+  font-weight: bold;
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  }
+  .course-box .buy-btn{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color:#f54121;
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    font-size: 18px;
+
+  }
+  .course-box .buy-btn:hover{
+    background-color: red;
+    
+  }
+  .course-box .cart-btn{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color:rgb(32, 163, 32);
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    font-size: 18px;
+    border-radius: 10px 5px 10px 5px;
+   
+  }
+  .course-box .cart-btn:hover{
+    background-color: green;
+  }
+  .prev{
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    scroll-behavior: smooth;
+  }
+  .next{
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    scroll-behavior: smooth;
+  }
+  /*about/...................*/
+  .about{
+    display: flex;
+  }
+  .about-text{
+   margin-left: 60px;
+   margin-top: 20px;
+    
+
+  }
+  .about-text h1{
+    font-weight: 700;
+    color: blue;
+    font-size: 30pt;
+  }
+  .about-text h5{
+    font-style: italic;
+    color: #f54121;
+    font-weight: 1.6rem;
+    margin-bottom: 12px;
+  }
+  .about-text h3{
+    font-weight: bold;
+    color:blue;
+    margin-bottom: 4px;
+  }
+
+  .about-text a{
+    background-color: red;
+    padding: 10px;
+    margin-top: 60px;
+    margin-left: 8px;
+color: #fff;
+
+  }
+
+  #contact{
+    display: flex;
+    justify-content: space-evenly;
+    background:rgba(219, 215, 215, 0.928);
+  height: 60vh;
+  
+  }
+  #contact li{
+    list-style: none;
+    font-weight: bolder;
+    margin: 18px;
+    font-size: 1rem;
+  }
+  #contact li:hover{
+    text-decoration: underline;
+    transform: translateX(2px);
+  }
+  #contact li a{
+    color: black;
+  }
